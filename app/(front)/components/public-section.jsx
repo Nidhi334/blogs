@@ -1,13 +1,12 @@
-import React from 'react'
-import { ProductCard } from './product-card';
+import React from "react";
+import { ProductCard } from "./product-card";
 
 const PublicSection = () => {
   return (
     <div>
-        <ProductCard/>
-      
+      <ProductCard />
     </div>
-  )
-}
+  );
+};
 
 export default PublicSection;

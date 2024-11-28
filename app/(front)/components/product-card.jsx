@@ -7,6 +7,8 @@ import {
   Button,
 } from "@material-tailwind/react";
 
+
+
 export function ProductCard() {
   return (
     <Card className="w-full max-w-[48rem] flex-row">
@@ -55,5 +57,10 @@ export function ProductCard() {
         </a>
       </CardBody>
     </Card>
+    
   );
 }
+
+
+
+
